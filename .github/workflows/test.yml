@@ -1,7 +1,7 @@
 name: first test
 on: workflow_dispatch
 jobs:
-  firstjob:
+  first-job:
     runs_on: ubuntu-latest
     steps:
       - name: num one

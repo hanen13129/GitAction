@@ -1,0 +1,12 @@
+name: first test
+on: workflow_dispatch
+jobs:
+  firstjob:
+    runs_on:ubuntu-latest
+    steps:
+      - name: num one
+        run: echo"1"
+      - name: num two
+        run: echo"2"
+      
+      

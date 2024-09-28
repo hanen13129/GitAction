@@ -3,10 +3,10 @@ on: workflow_dispatch
 jobs:
   first-job:
     runs_on: ubuntu-latest
-    steps:
-      - name: num one
-        run: echo"1"
-      - name: num two
-        run: echo"2"
+     steps:
+        - name: num one
+          run: echo"1"
+        - name: num two
+          run: echo"2"
       
       
